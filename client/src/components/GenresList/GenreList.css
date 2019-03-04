@@ -1,0 +1,63 @@
+.content {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: radial-gradient(ellipse farthest-side at 100% 100%,#97c9d5 5%,#1b5494 60%,#1f2e5a 120%);
+}
+
+.genre-title-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.wrap {
+    /*max-width: 400px;*/
+    padding: 24px;
+    margin: 30px 0;
+    border-radius: 5px;
+    background-color: #bdbdbd;
+}
+
+.add-genre {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.list {
+    box-sizing: border-box;
+    overflow-y: scroll;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 10px 2px 10px 10px;
+    border-radius: 10px;
+    background-color: #bdbdbd;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background: #00b3b3;
+    border-bottom: 2px solid #262626;
+    border-radius: 5px;
+}
+
+.list-item:hover {
+    background: linear-gradient(to top, #60606e, #00b3b3, #60606e);
+    transition: background .5s ease;
+}
+
+.genre-name {
+    font-size: 18px;
+    line-height: 2.5;
+    color: #303f9f;
+    font-weight: 700;
+}

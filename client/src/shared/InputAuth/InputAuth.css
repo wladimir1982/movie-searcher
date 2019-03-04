@@ -1,0 +1,10 @@
+.invalid label {
+    color: #f01f30 !important;
+}
+
+p {
+    color: #f01f30;
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+}

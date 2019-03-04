@@ -1,0 +1,15 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.file {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.error-message {
+    color: #f01f30;
+    font-size: 12px;
+    font-weight: bold;
+}
